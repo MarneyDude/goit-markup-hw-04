@@ -42,12 +42,14 @@ header {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.headerr {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-flex-box {
   display: flex;
@@ -95,6 +97,7 @@ header {
 .header-nav-list:first-child .header-list {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header .header-list:hover,
@@ -146,6 +149,7 @@ header {
     url(../images/banner.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   padding: 188px 0;
 }
@@ -187,10 +191,6 @@ header {
 
 /* СЕКЦІЯ ПІД БАНЕРОМ, БЛОКИ З ЕФЕКТИВНІСТЮ ТА ОПИСОМ */
 
-.flex-container {
-  display: flex;
-}
-
 .efficiency .efficiency-card {
   display: flex;
   justify-content: center;
@@ -202,7 +202,7 @@ header {
 }
 
 .efficiency-svg-background {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f4f4fd;
@@ -449,6 +449,7 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-all {
