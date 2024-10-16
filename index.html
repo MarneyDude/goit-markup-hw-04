@@ -62,8 +62,8 @@
     <main>
       <!-- СЕКЦІЯ З ВЕЛИКИМ ТЕКСТОМ ТА КНОПКОЮ  -->
 
-      <section class="banner section">
-        <div class="container">
+      <section class="banner section container">
+        <div>
           <h1 class="banner-title">Effective Solutions for Your Business</h1>
           <button type="button" class="bunner-button">Order Service</button>
         </div>
@@ -72,7 +72,7 @@
       <!-- СЕКЦІЯ ПІД БАНЕРОМ, БЛОКИ З ЕФЕКТИВНІСТЮ ТА ОПИСОМ -->
 
       <section class="efficiency section">
-        <div class="container">
+        <div class="container flex-container">
           <h2 class="efficiency-title visually-hidden">Benefits</h2>
 
           <ul class="efficiency-card">
@@ -157,28 +157,28 @@
                 <p class="team-info-list-text">Product Designer</p>
 
                 <ul class="social-links-svg">
-                  <li>
+                  <li class="links">
                     <a class="background-svg" href="#">
-                      <svg width="16" height="16">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="links">
                     <a class="background-svg" href="#">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="links">
                     <a class="background-svg" href="#">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="links">
                     <a class="background-svg" href="#">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -334,13 +334,11 @@
                   alt="Banking app"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
 
               <div class="card-text-block">
@@ -358,13 +356,12 @@
                   alt="Cashless Payment"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
 
               <div class="card-text-block">
@@ -382,13 +379,12 @@
                   alt="Laptop and phone"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Meditation App</h3>
@@ -405,14 +401,13 @@
                   alt=" Taxi driver"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
+
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Taxi Service</h3>
                 <p class="portfolio-list-tex">Marketing</p>
@@ -428,13 +423,11 @@
                   alt="Phone and Screen"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Screen Illustrations</h3>
@@ -452,13 +445,11 @@
                     Smiling girl"
                   width="360"
                 />
-                <div class="hidden-text">
-                  <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="hidden-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Online Courses</h3>
@@ -474,8 +465,8 @@
 
     <footer class="footer">
       <!-- Logo-and-text-container -->
-      <div class="container footer-links">
-        <div>
+      <div class="container footer-all">
+        <div class="logo-and-text">
           <a href="./index.html" class="footer-logo"
             >Web<span class="footer-text-studio">Studio</span>
           </a>
@@ -490,30 +481,33 @@
         <div>
           <p class="text-f">Social media</p>
           <ul class="social-links-svg-ftr">
-            <li>
+            <li class="ftr-links">
               <a class="background-svg-f" href="#">
-                <svg width="16" height="16">
+                <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+
+            <li class="ftr-links">
               <a class="background-svg-f" href="#">
-                <svg class="icon" width="16" height="16">
+                <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+
+            <li class="ftr-links">
               <a class="background-svg-f" href="#">
-                <svg class="icon" width="16" height="16">
+                <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+
+            <li class="ftr-links">
               <a class="background-svg-f" href="#">
-                <svg class="icon" width="16" height="16">
+                <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
