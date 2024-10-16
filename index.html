@@ -11,20 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <title>Preject-1-</title>
   </head>
   <body>
+    <!-- ХЕДЕР -->
     <header class="headerr">
       <div class="header container">
+        <!-- Navigation-panel -->
+
         <nav class="header-flex-box">
           <a href="./index.html" class="header-logo"
             >Web<span class="header-text-studio">Studio</span>
@@ -36,11 +33,16 @@
             <li class="header-nav-list">
               <a href="" class="header-list">Portfolio</a>
             </li>
-            <li class="header-nav-list"><a href="" class="header-list">Contacts</a></li>
+            <li class="header-nav-list">
+              <a href="" class="header-list">Contacts</a>
+            </li>
           </ul>
         </nav>
+
+        <!-- Contacts -->
+
         <address>
-          <ul class="header-flex-box">
+          <ul class="address-flex-box">
             <li>
               <a href="mailto:info@devstudio.com" class="header-mail-tel"
                 >info@devstudio.com</a
@@ -58,6 +60,8 @@
     </header>
 
     <main>
+      <!-- СЕКЦІЯ З ВЕЛИКИМ ТЕКСТОМ ТА КНОПКОЮ  -->
+
       <section class="banner section">
         <div class="container">
           <h1 class="banner-title">Effective Solutions for Your Business</h1>
@@ -65,11 +69,20 @@
         </div>
       </section>
 
+      <!-- СЕКЦІЯ ПІД БАНЕРОМ, БЛОКИ З ЕФЕКТИВНІСТЮ ТА ОПИСОМ -->
+
       <section class="efficiency section">
         <div class="container">
-          <h2 class="efficiency-title visually-hidden">)</h2>
+          <h2 class="efficiency-title visually-hidden">Benefits</h2>
+
           <ul class="efficiency-card">
+            <!-- Card-1 -->
             <li class="efficiency-card-width">
+              <div class="efficiency-svg-background">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="efficiency-list-title">Strategy</h3>
               <p class="efficiency-list-text">
                 Our goal is to identify the business problem to walk away with
@@ -77,7 +90,14 @@
               </p>
             </li>
 
+            <!-- Card-2 -->
+
             <li class="efficiency-card-width">
+              <div class="efficiency-svg-background">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="efficiency-list-title">Punctuality</h3>
               <p class="efficiency-list-text">
                 Bring the key message to the brand's audience for the best price
@@ -85,7 +105,14 @@
               </p>
             </li>
 
+            <!-- Card-3 -->
+
             <li class="efficiency-card-width">
+              <div class="efficiency-svg-background">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="efficiency-list-title">Diligence</h3>
               <p class="efficiency-list-text">
                 Research and confirm brands that present the strongest digital
@@ -93,7 +120,14 @@
               </p>
             </li>
 
+            <!-- Card-4 -->
+
             <li class="efficiency-card-width">
+              <div class="efficiency-svg-background">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="efficiency-list-title">Technologies</h3>
               <p class="efficiency-list-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -104,10 +138,14 @@
         </div>
       </section>
 
+      <!-- СЕКЦІЯ В ЯКІЙ ПРЕДСТАВЛЕННА КОМАНДА -->\
+
       <section class="team-info section">
         <div class="container">
           <h2 class="team-info-title">Our Team</h2>
           <ul class="team-info-card">
+            <!-- Team-Card-1 -->
+
             <li class="team-info-backgraund-card">
               <img
                 src="./images/img-1.jpg"
@@ -117,8 +155,41 @@
               <div class="team-info-text-container">
                 <h3 class="team-info-list-title">Mark Guerrero</h3>
                 <p class="team-info-list-text">Product Designer</p>
+
+                <ul class="social-links-svg">
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- Team-Card-2 -->
 
             <li class="team-info-backgraund-card">
               <img
@@ -130,8 +201,40 @@
               <div class="team-info-text-container">
                 <h3 class="team-info-list-title">Tom Ford</h3>
                 <p class="team-info-list-text">Frontend Developer</p>
+                <ul class="social-links-svg">
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- Team-Card-3 -->
 
             <li class="team-info-backgraund-card">
               <img src="./images/img-3.jpg" alt="Woman Marketing" width="264" />
@@ -139,8 +242,40 @@
               <div class="team-info-text-container">
                 <h3 class="team-info-list-title">Camila Garcia</h3>
                 <p class="team-info-list-text">Marketing</p>
+                <ul class="social-links-svg">
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- Team-Card-4 -->
 
             <li class="team-info-backgraund-card">
               <img src="./images/img-4.jpg" alt="Man UI Designer" width="264" />
@@ -148,83 +283,183 @@
               <div class="team-info-text-container">
                 <h3 class="team-info-list-title">Daniel Wilson</h3>
                 <p class="team-info-list-text">UI Designer</p>
+                <ul class="social-links-svg">
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="background-svg" href="#">
+                      <svg class="icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
 
+      <!-- СЕКЦІЯ ПОРТФОЛІО -->
+
       <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-card">
+            <!-- Card-1-Banking-app -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/BankingApp.jpg"
-                alt="Banking app"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/BankingApp.jpg"
+                  alt="Banking app"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Banking App</h3>
                 <p class="portfolio-list-tex">App</p>
               </div>
             </li>
 
+            <!--  Card-2-Cashless-Payment -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/CashlessPayment.jpg"
-                alt="Cashless Payment"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/CashlessPayment.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Cashless Payment</h3>
                 <p class="portfolio-list-tex">Marketing</p>
               </div>
             </li>
 
+            <!-- Card-3-Meditation-App -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/MeditationApp.jpg"
-                alt="Laptop and phone"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/MeditationApp.jpg"
+                  alt="Laptop and phone"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Meditation App</h3>
                 <p class="portfolio-list-tex">App</p>
               </div>
             </li>
 
+            <!-- Card-4-Taxi-Service -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/TaxiService.jpg"
-                alt=" Taxi driver"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/TaxiService.jpg"
+                  alt=" Taxi driver"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Taxi Service</h3>
                 <p class="portfolio-list-tex">Marketing</p>
               </div>
             </li>
 
+            <!-- Card-5-Screen-Illustrations -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/ScreenIllustrations.jpg"
-                alt="Phone and Screen"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/ScreenIllustrations.jpg"
+                  alt="Phone and Screen"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Screen Illustrations</h3>
                 <p class="portfolio-list-tex">Design</p>
               </div>
             </li>
 
+            <!-- Card-6-Online-Courses -->
+
             <li class="portfolio-list-card">
-              <img
-                src="./images/OnlineCourses.jpg"
-                alt="
-                  Smiling girl"
-                width="360"
-              />
+              <div class="hidden-card">
+                <img
+                  src="./images/OnlineCourses.jpg"
+                  alt="
+                    Smiling girl"
+                  width="360"
+                />
+                <div class="hidden-text">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="card-text-block">
                 <h3 class="portfolio-list-title">Online Courses</h3>
                 <p class="portfolio-list-tex">Marketing</p>
@@ -235,15 +470,56 @@
       </section>
     </main>
 
+    <!-- фУТЕР НИЖНЯ ЧАСТИНА СТОРІНКИ -->
+
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="footer-logo"
-          >Web<span class="footer-text-studio">Studio</span>
-        </a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+      <!-- Logo-and-text-container -->
+      <div class="container footer-links">
+        <div>
+          <a href="./index.html" class="footer-logo"
+            >Web<span class="footer-text-studio">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <!-- Social-links- -->
+
+        <div>
+          <p class="text-f">Social media</p>
+          <ul class="social-links-svg-ftr">
+            <li>
+              <a class="background-svg-f" href="#">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="background-svg-f" href="#">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="background-svg-f" href="#">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="background-svg-f" href="#">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

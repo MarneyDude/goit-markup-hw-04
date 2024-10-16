@@ -94,12 +94,15 @@ header {
   color: #404bbf;
 }
 
-.header .header-flex-box {
-  font-style: normal;
-  display: flex;
-  gap: 40px;
+.header-nav-list:first-child::after {
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  content: "";
 }
-.header-flex-box .header-mail-tel {
+
+.address-flex-box .header-mail-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -107,17 +110,30 @@ header {
   color: #434455;
 }
 
-.header-flex-box .header-mail-tel:hover {
+.address-flex-box .header-mail-tel:hover {
   color: #404bbf;
 }
 
-.header-flex-box .header-mail-tel:focus {
+.address-flex-box .header-mail-tel:focus {
   color: #404bbf;
+}
+
+.address-flex-box {
+  display: inline-flex;
+  gap: 40px;
 }
 
 /* СЕКЦІЯ З ВЕЛИКИМ ТЕКСТОМ ТА КНОПКОЮ */
+
 .banner {
-  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   padding: 188px 0;
 }
 
@@ -128,7 +144,10 @@ header {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto 48px auto;
 }
+
+/* Кнопка в секції БАНЕР  */
 
 .banner .bunner-button {
   display: block;
@@ -144,6 +163,7 @@ header {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
 }
 
 .banner .bunner-button:hover,
@@ -160,6 +180,18 @@ header {
 }
 .efficiency-card-width {
   width: calc((100% - 72px) / 4);
+}
+
+.efficiency-svg-background {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 
 .efficiency .efficiency-title {
@@ -229,6 +261,9 @@ header {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .team-info-text-container {
@@ -252,6 +287,28 @@ header {
   color: #434455;
   text-align: center;
 }
+
+.social-links-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-links-svg .background-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.background-svg:hover {
+  background-color: #404bbf;
+}
+
 /* СЕКЦІЯ ПОРТФОЛІО */
 
 .portfolio .portfolio-title {
@@ -300,6 +357,39 @@ header {
   color: #434455;
 }
 
+.hidden-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hidden-text > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px 0 32px;
+}
+
+.portfolio-list-card:hover .hidden-text {
+  transform: translateX(0);
+}
+.portfolio-list-card:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 /* фУТЕР НИЖНЯ ЧАСТИНА СТОРІНКИ */
 
 .footer {
@@ -320,4 +410,39 @@ header {
 .footer .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.social-links-svg-ftr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.social-links-svg-ftr .background-svg-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-links .text-f {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.background-svg-f:hover {
+  background-color: #31d0aa;
 }
