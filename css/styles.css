@@ -261,17 +261,17 @@ header {
   text-align: center;
 }
 
-.team-info-list-links {
+.team-info-social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
   margin-top: 8px;
 }
-.team-info-item-links {
+.team-info-social-item {
   fill: #f4f4fd;
 }
-.team-info-svg-links {
+.team-info-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,8 +281,8 @@ header {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-info-svg-links:hover,
-.team-info-svg-links:focus {
+.team-info-social-link:hover,
+.team-info-social-link:focus {
   background-color: #404bbf;
 }
 /* #endregion TEAM INFO */
@@ -368,7 +368,7 @@ header {
   max-width: 264px;
 }
 
-.footer-text-links-box {
+.footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -376,13 +376,13 @@ header {
   color: #fff;
   margin-bottom: 16px;
 }
-.footer-list {
+.footer-social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
-.footer-links {
+.footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,11 +393,8 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-links:hover,
-.footer-links:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-icon {
 }
 /* #endregion FOOTER */
