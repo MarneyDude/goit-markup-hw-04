@@ -18,7 +18,7 @@ ul {
   list-style-type: none;
 }
 
-.titles-h2 {
+h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -27,8 +27,7 @@ ul {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
-.subtitles-h3 {
+h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -37,7 +36,7 @@ ul {
   margin-bottom: 8px;
 }
 
-.paragraph {
+p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
