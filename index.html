@@ -14,43 +14,41 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Preject-1-</title>
+    <title>Preject-1</title>
   </head>
   <body>
-    <!-- ХЕДЕР -->
-    <header class="headerr">
+    <!-- HEADER -->
+    <header>
       <div class="header container">
-        <!-- Navigation-panel -->
-
-        <nav class="header-flex-box">
-          <a href="./index.html" class="header-logo"
-            >Web<span class="header-text-studio">Studio</span>
+        <nav class="header-navigation">
+          <a class="header-logo logotipe" href="./index.html"
+            >Web<span class="dark">Studio</span>
           </a>
-          <ul class="header-navigation-section">
-            <li class="header-nav-list">
-              <a href="./index.html" class="header-list">Studio</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="./index.html">Studio</a>
             </li>
-            <li class="header-nav-list">
-              <a href="" class="header-list">Portfolio</a>
+            <li class="header-item">
+              <a href="" class="header-link">Portfolio</a>
             </li>
-            <li class="header-nav-list">
-              <a href="" class="header-list">Contacts</a>
+            <li class="header-item">
+              <a href="" class="header-link">Contacts</a>
             </li>
           </ul>
         </nav>
 
         <!-- Contacts -->
 
-        <address>
-          <ul class="address-flex-box">
-            <li>
-              <a href="mailto:info@devstudio.com" class="header-mail-tel"
+        <address class="header-adress">
+          <ul class="header-adress-list">
+            <li class="header-adress-item">
+              <a class="header-adress-mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
 
-            <li>
-              <a href="tel:+110001111111" class="header-mail-tel"
+            <li class="header-address-item">
+              <a class="header-adress-tel" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -60,8 +58,7 @@
     </header>
 
     <main>
-      <!-- СЕКЦІЯ З ВЕЛИКИМ ТЕКСТОМ ТА КНОПКОЮ  -->
-
+      <!-- BANNER  -->
       <section class="banner section container">
         <div>
           <h1 class="banner-title">Effective Solutions for Your Business</h1>
@@ -69,67 +66,63 @@
         </div>
       </section>
 
-      <!-- СЕКЦІЯ ПІД БАНЕРОМ, БЛОКИ З ЕФЕКТИВНІСТЮ ТА ОПИСОМ -->
-
-      <section class="efficiency section">
+      <!-- BENEFITS -->
+      <section class="benefits section">
         <div class="container">
-          <h2 class="efficiency-title visually-hidden">Benefits</h2>
+          <h2 class="benefits-title titles-h2 visually-hidden">Benefits</h2>
 
-          <ul class="efficiency-card">
+          <ul class="benefits-list">
             <!-- Card-1 -->
-            <li class="efficiency-card-width">
-              <div class="efficiency-svg-background">
+            <li class="benefits-item">
+              <div class="benefits-svg">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="efficiency-list-title">Strategy</h3>
-              <p class="efficiency-list-text">
+              <h3 class="benefits-subtitle subtitles-h3">Strategy</h3>
+              <p class="benefits-text paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
 
             <!-- Card-2 -->
-
-            <li class="efficiency-card-width">
-              <div class="efficiency-svg-background">
+            <li class="benefits-item">
+              <div class="benefits-svg">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="efficiency-list-title">Punctuality</h3>
-              <p class="efficiency-list-text">
+              <h3 class="benefits-subtitle subtitles-h3">Punctuality</h3>
+              <p class="benefits-text paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
 
             <!-- Card-3 -->
-
-            <li class="efficiency-card-width">
-              <div class="efficiency-svg-background">
+            <li class="benefits-item">
+              <div class="benefits-svg">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="efficiency-list-title">Diligence</h3>
-              <p class="efficiency-list-text">
+              <h3 class="benefits-subtitle subtitles-h3">Diligence</h3>
+              <p class="benefits-text paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
 
             <!-- Card-4 -->
-
-            <li class="efficiency-card-width">
-              <div class="efficiency-svg-background">
+            <li class="benefits-item">
+              <div class="benefits-svg">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="efficiency-list-title">Technologies</h3>
-              <p class="efficiency-list-text">
+              <h3 class="benefits-subtitle subtitles-h3">Technologies</h3>
+              <p class="benefits-text paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -138,49 +131,49 @@
         </div>
       </section>
 
-      <!-- СЕКЦІЯ В ЯКІЙ ПРЕДСТАВЛЕННА КОМАНДА -->\
+      <!-- TEAM-INFO -->\
 
       <section class="team-info section">
         <div class="container">
-          <h2 class="team-info-title">Our Team</h2>
-          <ul class="team-info-card">
-            <!-- Team-Card-1 -->
+          <h2 class="team-info-title titles-h2">Our Team</h2>
 
-            <li class="team-info-backgraund-card">
+          <ul class="team-info-list">
+            <!-- Team-Card-1 -->
+            <li class="team-info-item">
               <img
                 src="./images/img-1.jpg"
                 alt="Man Product Designer"
                 width="264"
               />
-              <div class="team-info-text-container">
-                <h3 class="team-info-list-title">Mark Guerrero</h3>
-                <p class="team-info-list-text">Product Designer</p>
+              <div class="team-info-box">
+                <h3 class="team-info-subtitle subtitles-h3">Mark Guerrero</h3>
+                <p class="team-info-text paragraph">Product Designer</p>
 
-                <ul class="social-links-svg">
-                  <li class="links">
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                <ul class="team-info-list-links">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="links">
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="links">
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="links">
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -190,42 +183,41 @@
             </li>
 
             <!-- Team-Card-2 -->
-
-            <li class="team-info-backgraund-card">
+            <li class="team-info-item">
               <img
                 src="./images/img-2.jpg"
-                alt="Man Frontend Developer"
+                alt="Man Product Designer"
                 width="264"
               />
+              <div class="team-info-box">
+                <h3 class="team-info-subtitle subtitles-h3">Tom Ford</h3>
+                <p class="team-info-text paragraph">Frontend Developer</p>
 
-              <div class="team-info-text-container">
-                <h3 class="team-info-list-title">Tom Ford</h3>
-                <p class="team-info-list-text">Frontend Developer</p>
-                <ul class="social-links-svg">
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg width="16" height="16">
+                <ul class="team-info-list-links">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -236,37 +228,41 @@
 
             <!-- Team-Card-3 -->
 
-            <li class="team-info-backgraund-card">
-              <img src="./images/img-3.jpg" alt="Woman Marketing" width="264" />
+            <li class="team-info-item">
+              <img
+                src="./images/img-3.jpg"
+                alt="Man Product Designer"
+                width="264"
+              />
+              <div class="team-info-box">
+                <h3 class="team-info-subtitle subtitles-h3">Camila Garcia</h3>
+                <p class="team-info-text paragraph">Marketing</p>
 
-              <div class="team-info-text-container">
-                <h3 class="team-info-list-title">Camila Garcia</h3>
-                <p class="team-info-list-text">Marketing</p>
-                <ul class="social-links-svg">
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg width="16" height="16">
+                <ul class="team-info-list-links">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -276,38 +272,41 @@
             </li>
 
             <!-- Team-Card-4 -->
+            <li class="team-info-item">
+              <img
+                src="./images/img-4.jpg"
+                alt="Man Product Designer"
+                width="264"
+              />
+              <div class="team-info-box">
+                <h3 class="team-info-subtitle subtitles-h3">Daniel Wilson</h3>
+                <p class="team-info-text paragraph">UI Designer</p>
 
-            <li class="team-info-backgraund-card">
-              <img src="./images/img-4.jpg" alt="Man UI Designer" width="264" />
-
-              <div class="team-info-text-container">
-                <h3 class="team-info-list-title">Daniel Wilson</h3>
-                <p class="team-info-list-text">UI Designer</p>
-                <ul class="social-links-svg">
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg width="16" height="16">
+                <ul class="team-info-list-links">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a class="background-svg" href="#">
-                      <svg class="icon" width="16" height="16">
+                  <li class="team-info-item-links">
+                    <a class="team-info-svg-links" href="#">
+                      <svg class="team-info-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -319,141 +318,143 @@
         </div>
       </section>
 
-      <!-- СЕКЦІЯ ПОРТФОЛІО -->
+      <!-- PORTFOLIO -->
 
       <section class="portfolio section">
         <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul class="portfolio-card">
+          <h2 class="portfolio-title titles-h2">Our Portfolio</h2>
+          <ul class="portfolio-list">
             <!-- Card-1-Banking-app -->
 
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/BankingApp.jpg"
                   alt="Banking app"
                   width="360"
                 />
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
 
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Banking App</h3>
-                <p class="portfolio-list-tex">App</p>
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">Banking App</h3>
+                <p class="portfolio-text paragraph">App</p>
               </div>
             </li>
 
             <!--  Card-2-Cashless-Payment -->
-
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/CashlessPayment.jpg"
-                  alt="Cashless Payment"
+                  alt="Banking app"
                   width="360"
                 />
-
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
 
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Cashless Payment</h3>
-                <p class="portfolio-list-tex">Marketing</p>
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">
+                  Cashless Payment
+                </h3>
+                <p class="portfolio-text paragraph">Marketing</p>
               </div>
             </li>
 
             <!-- Card-3-Meditation-App -->
 
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/MeditationApp.jpg"
-                  alt="Laptop and phone"
+                  alt="Banking app"
                   width="360"
                 />
-
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Meditation App</h3>
-                <p class="portfolio-list-tex">App</p>
+
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">Meditation App</h3>
+                <p class="portfolio-text paragraph">App</p>
               </div>
             </li>
 
             <!-- Card-4-Taxi-Service -->
 
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/TaxiService.jpg"
-                  alt=" Taxi driver"
+                  alt="Banking app"
                   width="360"
                 />
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
 
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Taxi Service</h3>
-                <p class="portfolio-list-tex">Marketing</p>
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">Taxi Service</h3>
+                <p class="portfolio-text paragraph">Marketing</p>
               </div>
             </li>
 
             <!-- Card-5-Screen-Illustrations -->
 
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/ScreenIllustrations.jpg"
-                  alt="Phone and Screen"
+                  alt="Banking app"
                   width="360"
                 />
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Screen Illustrations</h3>
-                <p class="portfolio-list-tex">Design</p>
+
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">
+                  Screen Illustrations
+                </h3>
+                <p class="portfolio-text paragraph">Design</p>
               </div>
             </li>
 
             <!-- Card-6-Online-Courses -->
-
-            <li class="portfolio-list-card">
-              <div class="hidden-card">
+            <li class="portfolio-item">
+              <div class="portfolio-hidden-box">
                 <img
                   src="./images/OnlineCourses.jpg"
-                  alt="
-                    Smiling girl"
+                  alt="Banking app"
                   width="360"
                 />
-                <p class="hidden-text">
+                <p class="portfolio-hidden-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="card-text-block">
-                <h3 class="portfolio-list-title">Online Courses</h3>
-                <p class="portfolio-list-tex">Marketing</p>
+
+              <div class="portfolio-box">
+                <h3 class="portfolio-subtitle subtitles-h3">Online Courses</h3>
+                <p class="portfolio-text paragraph">Marketing</p>
               </div>
             </li>
           </ul>
@@ -461,14 +462,14 @@
       </section>
     </main>
 
-    <!-- фУТЕР НИЖНЯ ЧАСТИНА СТОРІНКИ -->
+    <!-- FOOTER-->
 
     <footer class="footer">
       <!-- Logo-and-text-container -->
-      <div class="container footer-all">
-        <div class="logo-and-text">
-          <a href="./index.html" class="footer-logo"
-            >Web<span class="footer-text-studio">Studio</span>
+      <div class="footer-content container">
+        <div class="footer-box">
+          <a href="./index.html" class="footer-logo logotipe"
+            >Web<span class="light">Studio</span>
           </a>
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
@@ -478,36 +479,35 @@
 
         <!-- Social-links- -->
 
-        <div>
-          <p class="text-f">Social media</p>
-          <ul class="social-links-svg-ftr">
-            <li class="ftr-links">
-              <a class="background-svg-f" href="#">
-                <svg class="icon" width="24" height="24">
+        <div class="footer-links-box">
+          <p class="footer-text-links-box">Social media</p>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-links" href="#">
+                <svg class="footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="ftr-links">
-              <a class="background-svg-f" href="#">
-                <svg class="icon" width="24" height="24">
+            <li class="footer-item">
+              <a class="footer-links" href="#">
+                <svg class="footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="ftr-links">
-              <a class="background-svg-f" href="#">
-                <svg class="icon" width="24" height="24">
+            <li class="footer-item">
+              <a class="footer-links" href="#">
+                <svg class="footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-
-            <li class="ftr-links">
-              <a class="background-svg-f" href="#">
-                <svg class="icon" width="24" height="24">
+            <li class="footer-item">
+              <a class="footer-links" href="#">
+                <svg class="footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
